@@ -1,0 +1,51 @@
+{
+  "totalQuestions": 5,
+  "processedAt": "2026-05-12T10:18:13.994790+00:00",
+  "results": [
+    {
+      "faqQuestion": 1,
+      "Question": "What is TensorFlow?",
+      "iterationCount": 1,
+      "status": "answered",
+      "Answer": "TensorFlow is an open-source machine learning library developed by Google. It is used for building and training artificial neural networks, particularly deep learning models. TensorFlow provides a wide range of tools and APIs for tasks such as data preprocessing, model training, and model deployment. It supports a variety of programming languages, including Python, C++, and Java. TensorFlow is widely used in the field of artificial intelligence for applications such as image and speech recognition, natural language processing, and predictive analytics.",
+      "checkedAnswer": true,
+      "remarks": "Accurate and informative."
+    },
+    {
+      "faqQuestion": 2,
+      "Question": "What is the difference between supervised and unsupervised learning?",
+      "iterationCount": 1,
+      "status": "answered",
+      "Answer": "The primary difference between supervised and unsupervised learning is the presence or absence of labeled training data. Supervised learning involves training a model on labeled data, where the correct output is already known, to learn the relationship between input and output. Unsupervised learning, on the other hand, involves training a model on unlabeled data to discover patterns, relationships, or groupings. Supervised learning is typically used for regression and classification tasks, while unsupervised learning is used for clustering, dimensionality reduction, and anomaly detection. The choice between supervised and unsupervised learning depends on the problem being solved and the availability of labeled data. Overall, both approaches have their strengths and weaknesses, and are used in different contexts.",
+      "checkedAnswer": true,
+      "remarks": "Clear explanation with good context."
+    },
+    {
+      "faqQuestion": 3,
+      "Question": "What is a neural network?",
+      "iterationCount": 1,
+      "status": "answered",
+      "Answer": "A neural network is a type of machine learning model inspired by the structure and function of the human brain. It consists of layers of interconnected nodes or neurons that process and transmit information. Neural networks can be trained on data to learn patterns and relationships, allowing them to make predictions, classify objects, and generate text or images. They are commonly used in applications such as image recognition, natural language processing, and speech recognition. Neural networks can be categorized into different types, including feedforward, recurrent, and convolutional neural networks, each with its own strengths and weaknesses. They have become a crucial tool in many areas of artificial intelligence and machine learning.",
+      "checkedAnswer": true,
+      "remarks": "The answer is factually correct, relevant to the question, sufficiently detailed, and free from hallucinations or nonsensical content."
+    },
+    {
+      "faqQuestion": 4,
+      "Question": "What is gradient descent?",
+      "iterationCount": 1,
+      "status": "answered",
+      "Answer": "Gradient descent is a fundamental optimization algorithm in machine learning and deep learning. It is used to minimize the loss function of a model by iteratively adjusting the model's parameters in the direction of the negative gradient of the loss function. The goal is to find the optimal set of parameters that result in the lowest loss. Gradient descent can be implemented in various forms, including batch gradient descent, stochastic gradient descent, and mini-batch gradient descent. The choice of gradient descent variant depends on the specific problem and dataset. Gradient descent is a crucial component of many machine learning algorithms, including linear regression, logistic regression, and neural networks.",
+      "checkedAnswer": true,
+      "remarks": "The answer provides a clear and concise explanation of gradient descent, its purpose, and its variants. It also mentions the importance of gradient descent in various machine learning algorithms."
+    },
+    {
+      "faqQuestion": 5,
+      "Question": "What is transfer learning in machine learning?",
+      "iterationCount": 1,
+      "status": "answered",
+      "Answer": "Transfer learning is a machine learning technique where a model trained on one task is re-purposed or fine-tuned for another related task. This approach enables the model to leverage pre-existing knowledge and features learned from the initial task, reducing the need for large amounts of training data and improving performance on the new task. Transfer learning is commonly used in deep learning applications, such as image classification and natural language processing. It helps to avoid training a model from scratch, saving time and computational resources. By using pre-trained models, developers can adapt to new tasks more efficiently and achieve better results.",
+      "checkedAnswer": true,
+      "remarks": "Clear and concise explanation of transfer learning."
+    }
+  ]
+}

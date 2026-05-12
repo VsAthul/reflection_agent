@@ -1,0 +1,22 @@
+[
+  {
+    "faqQuestion": 1,
+    "Question": "What is TensorFlow?"
+  },
+  {
+    "faqQuestion": 2,
+    "Question": "What is the difference between supervised and unsupervised learning?"
+  },
+  {
+    "faqQuestion": 3,
+    "Question": "What is a neural network?"
+  },
+  {
+    "faqQuestion": 4,
+    "Question": "What is gradient descent?"
+  },
+  {
+    "faqQuestion": 5,
+    "Question": "What is transfer learning in machine learning?"
+  }
+]

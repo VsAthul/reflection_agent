@@ -1,0 +1,14 @@
+# FAQ Reflection Agent — Python Dependencies
+
+# Core LLM orchestration
+langchain>=0.3.0
+langgraph>=0.2.0
+langchain-groq>=0.2.0
+langchain-ollama>=0.2.0
+langchain-core>=0.3.0
+
+# Data validation & structured outputs
+pydantic>=2.0.0
+
+# Environment variable management
+python-dotenv>=1.0.0
