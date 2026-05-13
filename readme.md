@@ -17,15 +17,7 @@ An intelligent multi-LLM FAQ answering system with **reflective validation**. Th
 
 ### Workflow
 
-```
-Load Question → Generate Answer → Validate Answer → Decision
-                                        ↓
-                                   Valid? → Save Result → Next Question
-                                        ↓
-                                   Invalid & Retries Left → Retry Generation
-                                        ↓
-                                   Max Retries Reached → Save as "No Answer"
-```
+![LANGGRAPH GRAPH IMAGE : ](graph_image.png)
 
 ### Key Components
 
