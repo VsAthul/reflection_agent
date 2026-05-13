@@ -1,15 +1,3 @@
-"""
-nodes/save_result_node.py
-─────────────────────────
-LangGraph Node — Save Result
-
-Responsibilities
-────────────────
-- Save the result for the current question (valid or exhausted retries)
-  into state["results"]
-- Advance current_index to the next question
-"""
-
 from state import FAQAgentState, QuestionResult, ValidationResult
 
 
