@@ -46,7 +46,6 @@ GENERATION_PROMPT = ChatPromptTemplate.from_messages(
     ]
 )
 
-# Bind structured output schema so LangChain parses the response automatically
 generation_chain = GENERATION_PROMPT | groq_llm.with_structured_output(GeneratedAnswer)
 
 

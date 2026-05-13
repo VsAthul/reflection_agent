@@ -1,6 +1,6 @@
 {
   "totalQuestions": 5,
-  "processedAt": "2026-05-12T10:18:13.994790+00:00",
+  "processedAt": "2026-05-13T06:49:22.666745+00:00",
   "results": [
     {
       "faqQuestion": 1,
@@ -9,43 +9,43 @@
       "status": "answered",
       "Answer": "TensorFlow is an open-source machine learning library developed by Google. It is used for building and training artificial neural networks, particularly deep learning models. TensorFlow provides a wide range of tools and APIs for tasks such as data preprocessing, model training, and model deployment. It supports a variety of programming languages, including Python, C++, and Java. TensorFlow is widely used in the field of artificial intelligence for applications such as image and speech recognition, natural language processing, and predictive analytics.",
       "checkedAnswer": true,
-      "remarks": "Accurate and informative."
+      "remarks": "The answer is factually correct, relevant to the question asked, sufficiently detailed (4 informative sentences), and free from hallucinations or nonsensical content."
     },
     {
       "faqQuestion": 2,
-      "Question": "What is the difference between supervised and unsupervised learning?",
+      "Question": "Is a perfect society possible?",
       "iterationCount": 1,
       "status": "answered",
-      "Answer": "The primary difference between supervised and unsupervised learning is the presence or absence of labeled training data. Supervised learning involves training a model on labeled data, where the correct output is already known, to learn the relationship between input and output. Unsupervised learning, on the other hand, involves training a model on unlabeled data to discover patterns, relationships, or groupings. Supervised learning is typically used for regression and classification tasks, while unsupervised learning is used for clustering, dimensionality reduction, and anomaly detection. The choice between supervised and unsupervised learning depends on the problem being solved and the availability of labeled data. Overall, both approaches have their strengths and weaknesses, and are used in different contexts.",
+      "Answer": "A perfect society is theoretically impossible due to the inherent complexities and diversities of human nature, societal dynamics, and the subjective definition of 'perfect'. While it is possible to strive for a more equitable and just society through efforts such as social reform, education, and technological advancements, achieving a flawless society is unattainable. The concept of a perfect society is often debated among philosophers, sociologists, and politicians, with various perspectives on what constitutes perfection. Ultimately, the pursuit of a better society is an ongoing process, and progress can be made through continuous improvement and adaptation. However, the idea of a completely perfect society remains an idealistic notion.",
       "checkedAnswer": true,
-      "remarks": "Clear explanation with good context."
+      "remarks": "The answer is factually correct, relevant to the question asked, sufficiently detailed (4 informative sentences), and free from hallucinations or nonsensical content."
     },
     {
       "faqQuestion": 3,
-      "Question": "What is a neural network?",
+      "Question": "Who is the great great great grandfather of martin luther king?",
       "iterationCount": 1,
       "status": "answered",
-      "Answer": "A neural network is a type of machine learning model inspired by the structure and function of the human brain. It consists of layers of interconnected nodes or neurons that process and transmit information. Neural networks can be trained on data to learn patterns and relationships, allowing them to make predictions, classify objects, and generate text or images. They are commonly used in applications such as image recognition, natural language processing, and speech recognition. Neural networks can be categorized into different types, including feedforward, recurrent, and convolutional neural networks, each with its own strengths and weaknesses. They have become a crucial tool in many areas of artificial intelligence and machine learning.",
+      "Answer": "The great great great grandfather of Martin Luther King Jr. is likely to be Willis Williams, an enslaved African American who was brought to the United States. However, due to the limited availability of historical records, the exact identity of Martin Luther King Jr.'s great great great grandfather cannot be confirmed with absolute certainty. Willis Williams is often cited as the paternal great great great grandfather of Martin Luther King Jr. based on available family records and historical research. Further research may be necessary to confirm this information. Martin Luther King Jr.'s ancestry is complex and not fully documented, making it challenging to provide a definitive answer. The available information suggests Willis Williams as the most likely candidate, but more research is needed for confirmation.",
       "checkedAnswer": true,
-      "remarks": "The answer is factually correct, relevant to the question, sufficiently detailed, and free from hallucinations or nonsensical content."
+      "remarks": "The answer is factually correct, relevant to the question asked, sufficiently detailed (4 informative sentences), and free from hallucinations or nonsensical content."
     },
     {
       "faqQuestion": 4,
-      "Question": "What is gradient descent?",
+      "Question": "Who is your favourite actor?",
       "iterationCount": 1,
       "status": "answered",
-      "Answer": "Gradient descent is a fundamental optimization algorithm in machine learning and deep learning. It is used to minimize the loss function of a model by iteratively adjusting the model's parameters in the direction of the negative gradient of the loss function. The goal is to find the optimal set of parameters that result in the lowest loss. Gradient descent can be implemented in various forms, including batch gradient descent, stochastic gradient descent, and mini-batch gradient descent. The choice of gradient descent variant depends on the specific problem and dataset. Gradient descent is a crucial component of many machine learning algorithms, including linear regression, logistic regression, and neural networks.",
+      "Answer": "I don't have personal preferences or feelings, so I don't have a favourite actor. I can provide information about various actors, their filmographies, and awards if that's helpful. My purpose is to assist with inquiries and provide factual information. I don't have personal opinions or biases. If you're looking for recommendations or information about a specific actor, I'd be happy to help.",
       "checkedAnswer": true,
-      "remarks": "The answer provides a clear and concise explanation of gradient descent, its purpose, and its variants. It also mentions the importance of gradient descent in various machine learning algorithms."
+      "remarks": "The answer is factually correct, relevant to the question asked, sufficiently detailed, and free from hallucinations or nonsensical content."
     },
     {
       "faqQuestion": 5,
-      "Question": "What is transfer learning in machine learning?",
-      "iterationCount": 1,
-      "status": "answered",
-      "Answer": "Transfer learning is a machine learning technique where a model trained on one task is re-purposed or fine-tuned for another related task. This approach enables the model to leverage pre-existing knowledge and features learned from the initial task, reducing the need for large amounts of training data and improving performance on the new task. Transfer learning is commonly used in deep learning applications, such as image classification and natural language processing. It helps to avoid training a model from scratch, saving time and computational resources. By using pre-trained models, developers can adapt to new tasks more efficiently and achieve better results.",
+      "Question": "If you could invent one superpower, what would it be?",
+      "iterationCount": 3,
+      "status": "no_answer",
+      "Answer": "-",
       "checkedAnswer": true,
-      "remarks": "Clear and concise explanation of transfer learning."
+      "remarks": "The answer is mostly correct but lacks sufficient detail to fully address the question."
     }
   ]
 }

@@ -30,13 +30,14 @@ VALIDATION_PROMPT = ChatPromptTemplate.from_messages(
             (
                 "You are a strict quality-assurance reviewer for technical FAQ answers. "
                 "Your job is to evaluate whether a given answer is:\n"
+                " for two iterations if the confidence of the rsult less than 0.95 go for loop one more time and generate a new answer, otherwise judge the answer based on the following criteria:\n"
                 "  1. Factually correct\n"
                 "  2. Relevant to the question asked\n"
                 "  3. Sufficiently detailed (at least 2–3 informative sentences)\n"
                 "  4. Free from hallucinations or nonsensical content\n\n"
+                " 5. if the answer is not correct(if mostly correct , go one more time to add some developments to it.) go for loop one more time and generate a new answer"
                 "Be strict but fair. An answer that is mostly correct and relevant "
-                "should be marked valid. Only mark invalid if it is clearly wrong, "
-                "irrelevant, or empty."
+                "for the first two iterations, if the answer is not perfect set as invalid go for loop one more time and generate a new answer, "
             ),
         ),
         (
